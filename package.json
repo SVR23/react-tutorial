@@ -1,0 +1,35 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "this is a react series",
+  "keywords": [
+    "react",
+    "redux"
+  ],
+  "homepage": "https://github.com/SVR23/react-tutorial#readme",
+  "bugs": {
+    "url": "https://github.com/SVR23/react-tutorial/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SVR23/react-tutorial.git"
+  },
+  "license": "ISC",
+  "author": "sreejesh",
+  "browserlist":["last 2 version"],
+  
+  
+  "scripts": {
+    "test": "jest",
+    "dev":"parcel index.html",
+    "build":"parcel build index.html"
+
+  },
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  }
+}
